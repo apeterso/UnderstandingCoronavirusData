@@ -1,0 +1,3 @@
+This project processes and formats data surrounding the 2020 coronavirus pandemic. It uses data from a Kaggle dataset that is updated daily.
+
+The generateCovidData.py Python script constructs a formatted .csv file using the data from the Kaggle dataset. It takes a very long time to run on a consumer-level computer since there are tens of thousands of rows of data. The Kaggle dataset is updated daily, so the insertNewCovidData.py script is run every morning to update the same .csv file that the generateCovidData.py script generates. The insertNewCovidData.py script takes less than 20 mintues to run.
